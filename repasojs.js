@@ -52,7 +52,7 @@ getUsuarioById(1)
 .then( ( usuario)=>console.log('Usuario encontrado: '.blue + usuario.rainbow))
 .catch( (msg)=>console.log(msg))
 
-console.log('DIVISION'.rainbow);
+console.log('DIVISION'.red);
 console.log( argv);
 n1 = argv.n1;
 n2 = argv.n2;
